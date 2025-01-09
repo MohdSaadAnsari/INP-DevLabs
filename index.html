@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INP DevLabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1><a href="/">INP DevLabs</a></h1>
+            <nav>
+                <ul>
+                    <li onclick="home()"><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="devSection">
+            <img src="Images/dev.png" alt="Failed to Load">
+            <div id="details">
+
+                <p>Hi, I'm <span id="nameSpan"><b>Mohd. Saad</b></span>,<br> a Full Stack & Android App Developer</p>
+            </div>
+        </div>
+
+        <div id="About">
+            <div id="animContainer">
+
+                <lottie-player id="lottiePlayer" src="Animations/developer_animation.json" background="##FFFFFF" speed="1"
+                    style="width: 450px; height: 450px" loop autoplay direction="1" mode="normal"></lottie-player>
+            </div>
+            <div id="aboutDetails">
+
+                <h3>About Me</h3>
+
+                
+                <p>
+
+                    I'm a passionate <b>Full Stack Web Developer</b> and <b>Android App Developer</b>. I specialize in
+                    creating functional websites and webpages with smooth, beautiful user interfaces that provide a
+                    great user experience.
+
+                    <br>
+                    <br>
+                    I have the ability to build both <b>web applications</b> and <b>Android apps</b>, ensuring that your
+                    ideas are brought to life across platforms. From designing modern, visually appealing interfaces to
+                    developing reliable backend systems, I focus on delivering high-quality, user-friendly solutions.
+                    <br>
+                    <br>
+                    Let’s work together to create something exceptional, whether it’s a website, an app, or both!
+                    <br><br>
+
+                </p>
+            
+            </div>
+        </div>
+
+        <div id="Services">
+            <div id="animContainer">
+
+                <lottie-player id="lottiePlayer" src="Animations/working_developer_animation.json" background="##FFFFFF" speed="1"
+                    style="width: 450px; height: 450px" loop autoplay direction="1" mode="normal"></lottie-player>
+            </div>
+
+            <div id="serviceDetails">
+                <h3>Services</h3>
+                <p>As a Full Stack Web Developer and Android App Developer, I offer a range of solutions, such as :
+                <ul>
+                    <li>
+                        <b>Web Application Development :</b> Creating functional and visually appealing websites that
+                        provide seamless user experiences across devices.
+                    </li>
+
+                    <li>
+                        <b>Android App Development :</b> Building smooth, reliable Android applications that meet your
+                        business or personal needs.
+                    </li>
+                    <li>
+                        <b>UI/UX Design :</b> Crafting beautiful, user-friendly interfaces that are both modern and
+                        intuitive.
+                    </li>
+
+                    <li>
+                        <b>Cross-Platform Solutions :</b> Developing solutions that work across web and mobile platforms
+                        to ensure consistency and ease of access for users.
+                    </li>
+                </ul>
+                <br>
+                One of my notable achievements is designing and developing the website <a
+                    href="https://www.amplitudealld.com" target="_blank">www.amplitudealld.com</a> along with its
+                Android application, demonstrating my ability to create seamless, cross-platform solutions.
+                </p>
+            </div>
+        </div>
+
+        <div id="Contact">
+            <div id="animContainer">
+
+                <!-- <lottie-player id="lottiePlayer" src="contact_animation.json" background="##FFFFFF" speed="1"
+                    style="width: 450px; height: 450px" loop autoplay direction="1" mode="normal"></lottie-player> -->
+                    <img id="cImg" src="Images/contact.jpeg"  alt="">
+            </div>
+
+            <div id="contactDetails">
+                <h3>
+                    Contact Me
+                </h3>
+
+                <p>"I'm always open to new opportunities and collaborations! Feel free to reach out to me via WhatsApp for inquiries, or Instagram for a more casual conversation or just to say hello.</p>
+<br>
+                <b>Get in Touch :</b>
+                <br>
+                <ul>
+                    <li>
+                        <span id="socialMediaNames" style="color: #9B4DE2;"> Instagram :</span> Message me on Instagram at <a  href="https://instagram.com/mohdsaadansari4" target="_blank"> <b style="color: #FF6500;">@mohdsaadansari4</b></a>
+                    </li>
+                    <li>
+                        <span id="socialMediaNames" style="color: #128C7E;"> WhatsApp :</span> Message me on Whatsapp at <a style="text-decoration: none;" href="https://wa.me/+917705876710" target="_blank"> <b style="color: #FF6500;">+917705876710</b></a> or <a href="https://wa.me/+917705876710" target="_blank">Click here to message me</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+   
+
+    <nav>
+        <ul>
+            <li onclick="home()"><a href="#">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <h4> Copyright &copy; 2025 INP DevLabs </h4>
+</footer>
+
+<script>
+    function home()
+    {
+        window.scrollTo({
+            top: 0, // Scroll to the top
+            behavior: 'smooth' // Smooth scrolling effect
+        });
+    }
+</script>
+</body>
+
+</html>
